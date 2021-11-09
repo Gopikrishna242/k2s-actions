@@ -1,4 +1,4 @@
-name: 'actions-knts'
+name: 'knts-actions'
 description: 'Start knts cluster and run knts commands'
 inputs:
   sizes:  
