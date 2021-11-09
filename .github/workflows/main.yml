@@ -1,0 +1,17 @@
+name: knts Testing
+on:
+  push:
+    branches:
+      - 'fix/**'
+      - 'master'
+      - 'main'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: Gopikrishna242/knts-actions@master
+      id: knts
+      with:
+        version: 'latest'
+    - run: |
+        knts get nodes

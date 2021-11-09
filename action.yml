@@ -1,0 +1,16 @@
+name: 'actions-knts'
+description: 'Start knts cluster and run knts commands'
+inputs:
+  sizes:  
+    description: 'sizes of knts'
+    required: true
+    default: 'Hobbyist'
+outputs:
+  kubeconfig: # id of output
+    description: 'Kubeconfig location'
+branding:
+  icon: "box"
+  color: "green"
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

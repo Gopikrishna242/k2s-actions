@@ -1,0 +1,28 @@
+{
+    "name": "knts-actions",
+    "sizes": "Hobbyist",
+    "description": "This github action starts a knts cluster of choosen size and sets KUBECONFIG to created cluster",
+    "main": "index.js",
+    "scripts": {
+      "build": "ncc build index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Gopikrishna242/knts-actions.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Gopikrishna242/knts-actions/issues"
+    },
+    "homepage": "https://github.com/Gopikrishna242/knts-actions#readme",
+    "dependencies": {
+      "node-fetch": "latest",
+      "@actions/core": "latest",
+      "@actions/exec": "latest",
+      "@actions/github": "latest",
+      "execa": "latest"
+    }
+  }
