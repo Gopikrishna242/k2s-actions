@@ -1,4 +1,4 @@
-name: knts Testing
+name: knts
 on:
   push:
     branches:
